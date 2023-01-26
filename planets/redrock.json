@@ -1,0 +1,320 @@
+{
+  "name": "Rocky Ringbearer",
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "Base": {
+    "surfaceSize": 200,
+    "surfaceGravity": 12,
+    "hasMapMarker": true,
+    "ambientLight": 0.3
+  },
+  "Orbit": {
+    "semiMajorAxis": 14000,
+    "primaryBody": "Sun",
+    "isMoon": false,
+    "isTidallyLocked": false,
+    "eccentricity": 0,
+    "siderealPeriod": 2.5
+  },
+  "Atmosphere": {
+    "size": 250,
+    "fogTint": {
+      "r": 226,
+      "g": 95,
+      "b": 95,
+      "a": 255
+    },
+    "fogSize": 225,
+    "fogDensity": 0.8,
+    "hasOxygen": true,
+    "hasSnow": true,
+    "useAtmosphereShader": true
+  },
+  "Water": {
+        "size": 195
+    },
+    "Rings": [
+      {
+        "fluidType": "sand",
+        "innerRadius": 300,
+        "outerRadius": 400,
+        "texture": "planets/assets/ring1.png",
+        "inclination": 0
+      }
+    ],
+    "HeightMap": {
+      "heightMap": "planets/assets/heightmap_1.png",
+      "maxHeight": 205,
+      "minHeight": 180,
+      "resolution": 2000,
+      "textureMap": "planets/assets/color_1.png"
+    },
+    "Props":{
+      "nomaiText": [
+        {
+          "position": {
+            "x": -191.8338,
+            "y": 3.112692,
+            "z": 66.02431
+          },
+          "rotation": {
+            "x": 292.4109,
+            "y": 205.9566,
+            "z": 278.2104
+          },
+          "type": "recorder",
+          "xmlFile": "planets/assets/corylus.xml"
+        },
+        {
+          "type": "wall",
+          "arcInfo": [
+            {
+              "position": {
+                "x": 0,
+                "y": 0
+              },
+              "variation": -2,
+              "type": "adult"
+            },
+            {
+              "position": {
+                "x": 0.0727,
+                "y": 1.1455
+              },
+              "zRotation": 84.9759,
+              "variation": 0,
+              "type": "adult"
+            },
+            {
+              "position": {
+                "x": -1.2,
+                "y": 0
+              },
+              "variation": -1,
+              "zRotation": 124.2534,
+              "type": "adult"
+            }
+          ],
+          "position": {
+            "x": -186.802,
+            "y": -43.1754,
+            "z": 41.3099
+          },
+          "rotation": {
+            "x": 15.0046,
+            "y": 282.6099,
+            "z": 351.3763
+          },
+          "xmlFile": "planets/assets/arc1.xml",
+          "seed": 80085
+        },
+        {
+          "type": "wall",
+          "arcInfo": [
+            {
+              "position": {
+                "x": 0.2,
+                "y": 0.1
+              },
+              "variation": -1,
+              "zRotation": 37.7964,
+              "type": "adult"
+            },
+            {
+              "position": {
+                "x": -0.5,
+                "y": 0.9
+              },
+              "variation": -1,
+              "zRotation": 69.02,
+              "type": "adult"
+            },
+            {
+              "position": {
+                "x": -1,
+                "y": 0.9
+              },
+              "variation": -1,
+              "zRotation": 145.769,
+              "type": "adult"
+            },
+            {
+              "position": {
+                "x": -1.2,
+                "y": 0.3
+              },
+              "variation": -1,
+              "zRotation": 225.0539,
+              "type": "adult"
+            },
+            {
+              "position": {
+                "x": -0.3273,
+                "y": -0.8
+              },
+              "variation": -1,
+              "zRotation": 281.9697,
+              "type": "adult"
+            },
+            {
+              "position": {
+                "x": 0.3,
+                "y": -0.4218
+              },
+              "variation": -1,
+              "zRotation": 293.4034,
+              "type": "adult"
+            }
+          ],
+          "position": {
+            "x": -130.3847,
+            "y": -91.6616,
+            "z": -110.4735
+          },
+          "rotation": {
+            "x": 353.6031,
+            "y": 134.589,
+            "z": 74.1671
+          },
+          "xmlFile": "planets/assets/arc2.xml",
+          "seed": 151515
+        }
+      ],
+      "scatter": [
+        {
+          "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_QRedwood/QRedwood (2)/Prefab_TH_Redwood",
+          "count": 80,
+          "minHeight": 195.5,
+          "maxHeight": 204.5,
+          "seed": 69420,
+          "scale": 0.3,
+          "keepLoaded": true
+        },
+        {
+          "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_S/Surface_AlpineClump_S/BatchedGroup",
+          "count": 120,
+          "minHeight": 195.5,
+          "maxHeight": 204.5,
+          "seed": 420420,
+          "scale": 0.7,
+          "keepLoaded": true
+        }
+      ],
+      "dialogue": [
+        {
+            "xmlFile": "planets/assets/text1.xml",
+            "position": {
+              "x": -197.0258,
+              "y": -14.0443,
+              "z": 50.2125
+            },
+            "radius": 1,
+            "range": 2
+        }
+       ],
+      "details": [
+        {
+          "path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder",
+          "position": {
+            "x": -197.0258,
+            "y": -14.0443,
+            "z": 50.2125
+          },
+          "rotation": {
+            "x": 17.20511,
+            "y": 190.6551,
+            "z": 259.2144
+          },
+          "removeComponents": true,
+          "keepLoaded": true
+        },
+        {
+          "assetBundle": "planets/assets/ruin",
+          "path": "Assets/CLPrefabs/ruin.prefab",
+          "position": {
+            "x": -189.758,
+            "y": -5.7735,
+            "z": 46.4032
+          },
+          "rotation": {
+            "x": 55.6068,
+            "y": 29.2712,
+            "z": 108.4487
+          },
+          "keepLoaded": true
+        },
+        {
+          "path": "Moon_Body/Sector_THM/Interactables_THM/Effects_HEA_Campfire",
+          "position": {
+            "x": -196.844,
+            "y": -16.382,
+            "z": 49.324
+          },
+          "rotation": {
+            "x": 78.5158,
+            "y": 63.0771,
+            "z": 141.761
+          },
+          "keepLoaded": true
+        },
+        {
+          "assetBundle": "planets/assets/stilt",
+          "path": "Assets/CLPrefabs/stilt.prefab",
+          "position": {
+            "x": -187.5489,
+            "y": 14.0847,
+            "z": 53.07
+          },
+          "rotation": {
+            "x": 55.6081,
+            "y": 28.9855,
+            "z": 84.4687
+          },
+          "keepLoaded": true
+        },
+        {
+          "assetBundle": "planets/assets/memorial",
+          "path": "Assets/CLPrefabs/memorial.prefab",
+          "position": {
+            "x": -118.6625,
+            "y": -93.1469,
+            "z": -96.7068
+          },
+          "rotation": {
+            "x": 5.8213,
+            "y": 314.5486,
+            "z": 117.6333
+          },
+          "keepLoaded": true
+        },
+        {
+          "assetBundle": "planets/assets/shrine",
+          "path": "Assets/CLPrefabs/shrine.prefab",
+          "position": {
+            "x": -194.6247,
+            "y": -40.888,
+            "z": 34.0751
+          },
+          "rotation": {
+            "x": 74.9954,
+            "y": 102.6099,
+            "z": 180
+          },
+          "keepLoaded": true
+        },
+        {
+          "path": "RingWorld_Body/Sector_RingInterior/Sector_Zone2/Structures_Zone2/EyeTempleRuins_Zone2/Geo_EyeTempleRuins_Zone2/Prop_IP_EyeSymbol",
+          "position": {
+            "x": -180.4462,
+            "y": -71.98948,
+            "z": 36.38199
+          },
+          "rotation": {
+            "x": 285.4563,
+            "y": 59.56011,
+            "z": 24.89692
+          },
+          "keepLoaded": false
+        }
+      ]
+    }
+}

@@ -1,0 +1,22 @@
+<DialogueTree>
+    <NameField>RECORDING</NameField>
+    
+    <DialogueNode>
+        <Name>MAIN</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>...This thing working?</Page>
+            <Page>Yeah. Let's assume it is.</Page>
+            <Page><i>*(Obnoxious sounds of throat clearing.)*</i></Page>
+            <Page>This is Gabbro here, landed on, um, the Nomai Ruins down on ol' Rocky Ringbearer.</Page>
+            <Page>Mission Control really wanted me to check this place out, but it seems pretty empty to me.</Page>
+            <Page>I know I'm supposed to do sciencey stuff, but I <i>reaaaaaaaally</i> do not feel like it right now.</Page>
+            <Page>Spaceflight's tiring, man.</Page>
+            <Page>I used that weird little Nomai light - which was overheating, by the way - and lit a fire.</Page>
+            <Page>Glad that Mission Control sends that firewood with us, makes for a nice naptime session.</Page>
+            <Page>I set up a hammock between two of those big Timber Hearth-y trees, and I'd have to rate this place a surprising 9/10 on the Gabbro Relaxation Scale.</Page>
+            <Page> That terrifying ball of lava definitely deducts that point, though.</Page>
+            <Page>...I'll probably set those experiments up later. The <![CDATA[<color=orange>magnetic stuff</color>]]> was being weird anyways... Well, Gabbro signing off, or whatever.</Page>
+        </Dialogue>
+    </DialogueNode>
+</DialogueTree>

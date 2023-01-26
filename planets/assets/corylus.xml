@@ -1,0 +1,26 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>CORYLUS: Expedition log... one, uhm... Things seem to be going fine, I suppose.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>CORYLUS: That darn <![CDATA[<color=orange>moon</color>]]> might be making operations a bit difficult, but we make do!</Text>
+	</TextBlock>
+    <TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>CORYLUS: Thankfully, <![CDATA[<color=orange>Cercis</color>]]> is helping us build some sort of camp that'll last at least a week.</Text>
+	</TextBlock>
+    <TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>CORYLUS: ...At least, that's what he's telling us all. Sometimes he can be rather unreliable.</Text>
+	</TextBlock>
+    <TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>CORYLUS: Unfortunately, we must take cover, as the <![CDATA[<color=orange>moon</color>]]> approaches once more. End expedition log one.</Text>
+	</TextBlock>
+</NomaiObject>

@@ -1,0 +1,31 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>CANNA: Let this be a place of honor for those we have lost. May their souls forever rest.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Zinnia.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>Cercis.</Text>
+	</TextBlock>
+    <TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<Text>Salvia.</Text>
+	</TextBlock>
+    <TextBlock>
+		<ID>5</ID>
+		<ParentID>1</ParentID>
+		<Text>Hakone.</Text>
+	</TextBlock>
+    <TextBlock>
+		<ID>6</ID>
+		<ParentID>1</ParentID>
+		<Text>Peony.</Text>
+	</TextBlock>
+</NomaiObject>

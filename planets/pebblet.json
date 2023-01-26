@@ -1,0 +1,122 @@
+{
+    "name": "Magmatic Arbiter",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "Base": {
+        "surfaceSize": 41,
+        "surfaceGravity": 4,
+        "hasMapMarker": true
+    },
+    "Orbit": {
+        "semiMajorAxis": 450,
+        "primaryBody": "Rocky Ringbearer",
+        "isMoon": true,
+        "isTidallyLocked": true,
+        "inclination": 180
+    },
+    "HeightMap": {
+        "heightMap": "planets/assets/moonheight.png",
+        "maxHeight": 40.5,
+        "minHeight": 39,
+        "textureMap": "planets/assets/mooncolor.png",
+        "resolution": 400
+    },
+    "Lava": {
+        "size": 39.8,
+        "tint": {
+            "r": 255,
+            "g": 107,
+            "b": 0,
+            "a": 255
+        }
+    },
+    "Props": { 
+        "volcanoes": [
+            {
+                "lavaTint": {
+                    "r": 255,
+                    "g": 107,
+                    "b": 0,
+                    "a": 255
+                },
+                "position": {
+                    "x": -39.14476,
+                    "y": 5.191078,
+                    "z": 2.354826
+                },
+                "scale": 1,
+                "stoneTint": {
+                    "r": 255,
+                    "g": 107,
+                    "b": 0,
+                    "a": 255
+                }
+            },
+            {
+                "lavaTint": {
+                    "r": 255,
+                    "g": 107,
+                    "b": 0,
+                    "a": 255
+                },
+                "position": {
+                    "x": -27.4637,
+                    "y": 15.35133,
+                    "z": -23.49422
+                },
+                "scale": 0.75,
+                "stoneTint": {
+                    "r": 255,
+                    "g": 107,
+                    "b": 0,
+                    "a": 255
+                }
+            },
+            {
+                "lavaTint": {
+                    "r": 255,
+                    "g": 107,
+                    "b": 0,
+                    "a": 255
+                },
+                "position": {
+                    "x": 7.883081,
+                    "y": 33.71434,
+                    "z": 18.80762
+                },
+                "scale": 0.5,
+                "stoneTint": {
+                    "r": 255,
+                    "g": 107,
+                    "b": 0,
+                    "a": 255
+                }
+            }
+        ],
+        "scatter":[
+            {
+              "path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_NorthPoleSurface/Props_NorthPoleSurface/OtherComponentsGroup/LowBuilding/Prefab_NOM_Skeleton_Large_Pile_A",
+              "count": 5,
+              "minHeight": 39.83,
+              "maxHeight": 40.5,
+              "seed": 69420,
+              "scale": 1,
+              "keepLoaded": true
+            }
+          ],
+          "details": [
+        {
+          "path": "Shuttle_Body/Prefab_NOM_Shuttle/Sector_NomaiShuttleInterior/Props_NomaiShuttleInterior/Prefab_NOM_NomaiTree_VarDRY_3",
+          "position": {
+            "x": -7.350863,
+            "y": 3.397556,
+            "z": 35.00279
+          },
+          "rotation": {
+            "x": 78.22122,
+            "y": 256.387,
+            "z": 266.9055
+          }
+        }
+      ]
+    }
+}

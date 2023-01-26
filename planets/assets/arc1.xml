@@ -1,0 +1,16 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>SUTERA: Come in, friends, and let us offer some of our time to our studies of the <![CDATA[<color=orange>Eye of the Universe</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>SUTERA: Utilize this laboratory while it lasts, for the <![CDATA[<color=orange>ring particles</color>]]> may soon <![CDATA[<color=orange>bury our whole settlement</color>]]> if these accretion rates keep up.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>HOSTA: And what a shame it is. I have already made the necessary preparations to find a <![CDATA[<color=orange>more suitable settlement</color>]]>, perhaps <![CDATA[<color=orange>around another star</color>]]>.</Text>
+	</TextBlock>
+</NomaiObject>
