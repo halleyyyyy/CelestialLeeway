@@ -7,7 +7,7 @@
         "hasMapMarker": true
     },
     "Orbit": {
-        "semiMajorAxis": 450,
+        "semiMajorAxis": 460,
         "primaryBody": "Rocky Ringbearer",
         "isMoon": true,
         "isTidallyLocked": true,
