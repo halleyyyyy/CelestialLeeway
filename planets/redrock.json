@@ -23,11 +23,18 @@
       "b": 95,
       "a": 255
     },
+    "atmosphereTint": {
+      "r": 217,
+      "g": 77,
+      "b": 42,
+      "a": 255
+    },
     "fogSize": 225,
     "fogDensity": 0.8,
     "hasOxygen": true,
     "hasSnow": true,
-    "useAtmosphereShader": true
+    "useAtmosphereShader": true,
+    "hasShockLayer": true
   },
   "Water": {
         "size": 195
